@@ -1,0 +1,185 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff00bf;
+    color: #000000;
+    margin: 20vw;
+
+  }
+
+
+
+
+
+/*---------titulo y redireccion--------------*/
+
+
+
+
+
+.titulo {
+
+    background-image: url(imagenes/37dcbbf8-a486-4fbd-a43d-a861a31b8ffb-profile_banner-480.png);
+    font-size: 55px ;
+    font-family:  sans-serif, Arial, Helvetica;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.redirecciones {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px ;
+    background-color: #da00cf;
+    margin: auto;
+    margin-top: 3vw;
+    padding: 10px 1em;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.botones-inicio {
+
+    background-color: violet;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.botones-inicio:hover {
+    background-color: purple;
+    transition: 0.5s;
+    color: rgb(255, 192, 241);
+}
+
+
+
+
+
+/*------------logo y contenido--------------*/
+
+
+
+
+
+.logo-mab {
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub-titulo {
+    background-image: url(imagenes/37dcbbf8-a486-4fbd-a43d-a861a31b8ffb-profile_banner-480.png);
+    font-size: 30px ;
+    font-family:  sans-serif, Arial, Helvetica;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parrafo-e-imagen {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 1vw 4vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+/*-----------pie de pagina-----------*/
+
+.pie-de-pag {
+
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #da00cf;
+}
+
+.logo-mab-2{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.categorias {
+
+    width: 50vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px ;
+    margin: auto;
+    margin-top: 3vw;
+    padding: 10px 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.contactos {
+
+    width: 50vw;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px ;
+    margin: auto;
+    margin-top: 3vw;
+    padding: 10px 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.txt-img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.contacto-imag {
+
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
